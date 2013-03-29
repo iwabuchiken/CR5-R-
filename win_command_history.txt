@@ -46,17 +46,32 @@ heroku create --stack cedar
 	3632.git
 	Git remote heroku added
 
+heroku rename cosmos-cr5
 
-heroku rename cosmos-news-reader-3
+	Renaming mysterious-beyond-3632 to cosmos-cr5... done
+	http://cosmos-cr5.herokuapp.com/ | git@heroku.com:cosmos-cr5.git
+	Git remote heroku updated
 
 g p heroku master
 
-/git remote rm heroku
-/gem uninstall heroku (2.28.10)
-
-/git remote add heroku git@heroku.com:cosmos-english-reader.git
+	To git@heroku.com:cosmos-cr5.git
+	 * [new branch]      master -> master
 
 heroku open
+
+[B1]----------------------------
+#rails generate scaffold Text text:text url:string genre_id:integer subgenre_id:integer lang_id:integer memo:text dbId:integer
+//rails generate scaffold Text line:text url:string src:string news_time:string genre:string cat:string subcat:string tag:string memo:text
+
+bundle exec rake db:migrate
+
+### BROWSE
+
+g p origin master
+
+g p heroku master
+
+heroku run rake db:migrate
 
 [/Set up ]----------------------------
 
