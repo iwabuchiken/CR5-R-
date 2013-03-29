@@ -17,51 +17,35 @@ gitk
 
 git log --grep=master -6
 
-[Set up 2012052]----------------------------
-rails new NewsReader
-
-cd NewsReader
-
-copy C:\WORKS\WORKSPACES_APTANA\ChineseReader\.project .
-
-### EDIT .project#name	###
-
-### IMPORT TO APTANA	###
-
-copy C:\WORKS\WORKSPACES_APTANA\ChineseReader\win_command_history.txt .
-
-copy C:\WORKS\WORKSPACES_APTANA\ChineseReader\Gemfile .
-
-bundle install
+[Set up 20130329_145801]----------------------------
+#bundle install
 
 rails s --port 3001
 
-[Git ]
-### CREATE REPO AT GitHub	###
-
-git init
-
-git add .
-
-git commit -a
-
-git remote add origin git@github.com:iwabuchiken/NewsReader3.git
-
-g p origin master
-
-### BROWSE GitHub	###
-
-[heroku ]
 gem install heroku --no-ri --no-rdoc
 
-# Successfully installed excon-0.14.3
-# Successfully installed heroku-api-0.2.7
-# Successfully installed heroku-2.28.10
-# 3 gems installed
+	Fetching: heroku-api-0.3.8.gem (100%)
+	Fetching: heroku-2.35.0.gem (100%)
+	 !    The `heroku` gem has been deprecated and replaced with the Heroku Toolbelt
+	.
+	 !    Download and install from: https://toolbelt.heroku.com
+	 !    For API access, see: https://github.com/heroku/heroku.rb
+	Successfully installed heroku-api-0.3.8
+	Successfully installed heroku-2.35.0
+	2 gems installed
 
 heroku keys:add
 
+	Found existing public key: C:/Users/IwabuchiKen/.ssh/id_rsa.pub
+	Uploading SSH public key C:/Users/IwabuchiKen/.ssh/id_rsa.pub... done
+
 heroku create --stack cedar
+
+	Creating mysterious-beyond-3632... done, stack is cedar
+	http://mysterious-beyond-3632.herokuapp.com/ | git@heroku.com:mysterious-beyond
+	3632.git
+	Git remote heroku added
+
 
 heroku rename cosmos-news-reader-3
 
