@@ -11,14 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130330231114) do
+ActiveRecord::Schema.define(:version => 20130330232602) do
 
   create_table "texts", :force => true do |t|
     t.text     "text"
     t.string   "url"
-    t.integer  "genre_id"
-    t.integer  "subgenre_id"
-    t.integer  "lang_id"
+    t.integer  "genre_id",                   :null => false
+    t.integer  "subgenre_id",                :null => false
+    t.integer  "lang_id",                    :null => false
     t.text     "memo"
     t.integer  "dbId",        :default => 0, :null => false
     t.datetime "created_at",                 :null => false

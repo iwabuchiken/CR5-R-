@@ -106,7 +106,16 @@ bundle exec rake db:migrate
 	id","text","url","genre_id","subgenre_id","lang_id","memo","dbId","created_at","
 	updated_at") VALUES (1, '精良的技术 CNCEC先后获得国家及省部级各类奖项874项，拥有
 
+#g p origin master
+#g p heroku master
+#heroku run rake db:migrate
 
+#rails generate migration SetDefaultAllVariablesInTexts
+#bundle exec rake db:migrate
+$GIT
+g p origin master
+g p heroku master
+heroku run rake db:migrate
 
 [Model: Article: 20120710_172354]-------------------------------
 # rails generate scaffold Article line:text url:string src:string news_time:string genre:string cat:string subcat:string tag:string memo:text
