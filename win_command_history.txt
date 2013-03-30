@@ -106,13 +106,23 @@ bundle exec rake db:migrate
 	id","text","url","genre_id","subgenre_id","lang_id","memo","dbId","created_at","
 	updated_at") VALUES (1, '精良的技术 CNCEC先后获得国家及省部级各类奖项874项，拥有
 
+$DELETE:Existing records
 #g p origin master
 #g p heroku master
 #heroku run rake db:migrate
 
 #rails generate migration SetDefaultAllVariablesInTexts
 #bundle exec rake db:migrate
-$GIT
+#$GIT::commit
+#g p origin master
+#g p heroku master
+#heroku run rake db:migrate
+
+$TEST
+
+#rails generate migration SetDefault0AllVariablesInTexts
+#bundle exec rake db:migrate
+$GIT::commit
 g p origin master
 g p heroku master
 heroku run rake db:migrate
