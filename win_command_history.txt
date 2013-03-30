@@ -122,10 +122,18 @@ $TEST
 
 #rails generate migration SetDefault0AllVariablesInTexts
 #bundle exec rake db:migrate
+#$GIT::commit
+#g p origin master
+#g p heroku master
+#heroku run rake db:migrate
+
+rails generate migration SetDefaultNullFalseTexts
+bundle exec rake db:migrate
 $GIT::commit
 g p origin master
 g p heroku master
 heroku run rake db:migrate
+
 
 [Model: Article: 20120710_172354]-------------------------------
 # rails generate scaffold Article line:text url:string src:string news_time:string genre:string cat:string subcat:string tag:string memo:text
