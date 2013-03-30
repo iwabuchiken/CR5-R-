@@ -1,10 +1,10 @@
 a
-cd C:\WORKS\WS\WS_Android\CR5(R)
+pushd C:\WORKS\WS\WS_Android\CR5(R)
 gitk
 
 C:\WORKS\PROGRAMS\FreeMind\Freemind.exe C:\WORKS\WORKSPACES_ANDROID\FM\NewsReader3_R\NewsReader3.mm
 
-rails s --port 3000
+rails s --port 3001
 
 pushd C:\WORKS\WORKSPACES_APTANA\NewsReader3
 
@@ -67,13 +67,21 @@ bundle exec rake db:migrate
 
 ### BROWSE
 
-g p origin master
+#Merger the branch to master
+
+#g p origin master
 
 g p heroku master
 
 heroku run rake db:migrate
 
-[/Set up ]----------------------------
+[B1 v-2.0 20130331_074117]----------------------------
+//rails generate migration AddColumnCodesToArticle
+#rails generate migration SetDefaultLongVariablesInTexts
+
+#bundle exec rake db:migrate
+
+
 
 [Model: Article: 20120710_172354]-------------------------------
 # rails generate scaffold Article line:text url:string src:string news_time:string genre:string cat:string subcat:string tag:string memo:text
