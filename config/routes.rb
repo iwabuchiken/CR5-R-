@@ -1,4 +1,10 @@
 CR5R::Application.routes.draw do
+  get "admin/main"
+
+  get "admin/sub1"
+
+  get "admin/sub2"
+
   resources :texts
 
   # The priority is based upon order of creation:
