@@ -141,6 +141,10 @@ g p heroku master
 [B3 v-2.0  2013/03/31 14:06:39]-------------------------------
 rails generate controller admin main sub1 sub2
 
+g p origin master
+g p heroku master
+
+
 [Model: Article: 20120710_172354]-------------------------------
 # rails generate scaffold Article line:text url:string src:string news_time:string genre:string cat:string subcat:string tag:string memo:text
 

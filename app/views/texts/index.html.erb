@@ -12,6 +12,7 @@
     <th></th>
     <th></th>
     <th></th>
+    <th>Created at</th>
   </tr>
 
 <% @texts.each do |text| %>
@@ -26,6 +27,7 @@
     <td><%= link_to 'Show', text %></td>
     <td><%= link_to 'Edit', edit_text_path(text) %></td>
     <td><%= link_to 'Destroy', text, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= text.created_at %></td>
   </tr>
 <% end %>
 </table>
@@ -33,3 +35,6 @@
 <br />
 
 <%= link_to 'New Text', new_text_path %>
+
+<hr />
+since.numeric? => <%= @numeric %>

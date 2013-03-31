@@ -2,10 +2,51 @@ class TextsController < ApplicationController
   # GET /texts
   # GET /texts.json
   def index
-    @texts = Text.all
-
     since = params[:since]
-    
+
+    # if since.numeric?
+#       
+      # # @numeric = "numeric"
+#       
+    # else
+#       
+      # # @numeric = "Not numeric"
+#       
+    # end
+    # @numeric = since.numeric?
+
+    # @since = since.class
+    if since == nil
+
+      logout("since == nil")
+      @texts = Text.all
+      
+    else
+      
+        if since.numeric?
+      
+          @texts = 
+              Text.find(
+                    :all,
+                    :conditions => ["created_at > ?", Time.at(since.to_i / 1000).utc])
+                    # :conditions => ["created_at > ?", Time.at(since.to_i / 1000)])
+          
+          # logout(Time.at(since.to_i / 1000) + "/utc=" + Time.at(since.to_i / 1000).utc)
+          logout(Time.at(since.to_i / 1000).to_s + "/utc=" + Time.at(since.to_i / 1000).utc.to_s)
+          
+        else
+          logout("since -> " + since + "(" + Time.at(since.to_i / 1000) + ")")
+          
+          @texts =
+              Text.all
+          
+        end
+
+      # @texts = Text.find(:all, :conditions => ["created_at > ?", Time.at(since.to_i / 1000).utc])
+      
+    end    
+    # @texts = Text.all
+
     # debug
     index_debug(since)
     
@@ -21,16 +62,7 @@ class TextsController < ApplicationController
   end#def index
 
   def index_debug(content)
-    # target = "target.txt"
-    # target = "doc/target.txt"
-    # newDir = "doc/abc"
-    # newDir = "doc/abcdef"
-    
-    # if not FileTest::directory?()
-    # if not File.exists?(newDir)
-      # Dir::mkdir(newDir)
-    # end
-    
+
     target = "doc/abc/target.txt"
     # content = "abcdefg"
     # File.open(target, "w+") do |f|
@@ -40,25 +72,6 @@ class TextsController < ApplicationController
     end
     
   end#def index_debug()
-
-  # def index_debug()
-    # # target = "target.txt"
-    # # target = "doc/target.txt"
-    # # newDir = "doc/abc"
-    # newDir = "doc/abcdef"
-#     
-    # # if not FileTest::directory?()
-    # if not File.exists?(newDir)
-      # Dir::mkdir(newDir)
-    # end
-#     
-    # target = "doc/abc/target.txt"
-    # content = "abcdefg"
-    # File.open(target, "w+") do |f|
-      # f.write(content)
-    # end
-#     
-  # end#def index_debug()
 
   # GET /texts/1
   # GET /texts/1.json
@@ -132,3 +145,25 @@ class TextsController < ApplicationController
     end
   end
 end
+
+def logout(label)
+  
+    
+    target = "doc/abc/log.txt"
+    # content = "abcdefg"
+    # File.open(target, "w+") do |f|
+    File.open(target, "a") do |f|
+      f.write("[" + __FILE__ + " " + Time.now.to_s + "]" + "\n")
+      # f.write(content)
+      f.write(label)
+      f.write("\n")
+    end
+
+end
+
+class String
+  def numeric?
+    return true if self =~ /^\d+$/
+    true if Float(self) rescue false
+  end
+end  

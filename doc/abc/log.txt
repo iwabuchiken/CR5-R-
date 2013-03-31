@@ -1,0 +1,23 @@
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:41:06 +0900]
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:41:39 +0900]
+2013-03-31 06:33:39 +0900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:41:48 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:41:56 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:42:22 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:42:32 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:42:42 +0900]
+2013-03-31 06:33:39 +0900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:43:44 +0900]
+2013-03-31 06:33:39 +0900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:44:59 +0900]
+2013-03-30 23:52:39 +0900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:47:53 +0900]
+2013-03-30 23:52:39 +0900/utc=2013-03-30 14:52:39 UTC
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:49:52 +0900]
+2013-03-30 23:52:39 +0900/utc=2013-03-30 14:52:39 UTC
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-03-31 15:51:45 +0900]
+2013-03-31 06:33:39 +0900/utc=2013-03-30 21:33:39 UTC

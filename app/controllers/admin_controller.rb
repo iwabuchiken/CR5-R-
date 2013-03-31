@@ -2,7 +2,8 @@ class AdminController < ApplicationController
   def main
 
     # @content = nil
-    target = "doc/abc/target.txt"
+    # target = "doc/abc/target.txt"
+    target = "doc/abc/log.txt"
     
     # @content = "111111111"
     @content = ""
