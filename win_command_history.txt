@@ -148,6 +148,10 @@ g p heroku master
 g p origin master
 g p heroku master
 
+[B4 v-1.1  2013/03/31 14:06:39]-------------------------------
+g p origin master
+g p heroku master
+
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------

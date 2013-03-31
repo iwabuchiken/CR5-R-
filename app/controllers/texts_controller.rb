@@ -36,7 +36,10 @@ class TextsController < ApplicationController
                     # :conditions => ["created_at > ?", Time.at(since.to_i / 1000)])
           
           # logout(Time.at(since.to_i / 1000) + "/utc=" + Time.at(since.to_i / 1000).utc)
-          logout(Time.at(since.to_i / 1000).to_s + "/utc=" + Time.at(since.to_i / 1000).utc.to_s)
+          # logout(Time.at(since.to_i / 1000).to_s + "/utc=" + Time.at(since.to_i / 1000).utc.to_s)
+          logout((Time.at(since.to_i / 1000) + (9*60*60)).to_s\
+                  + "/utc="\
+                  + (Time.at(since.to_i / 1000).utc + (9*60*60)).to_s)
           
         else
           logout("since -> " + since + "(" + Time.at(since.to_i / 1000) + ")")
