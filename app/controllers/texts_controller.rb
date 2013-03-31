@@ -4,11 +4,61 @@ class TextsController < ApplicationController
   def index
     @texts = Text.all
 
+    since = params[:since]
+    
+    # debug
+    index_debug(since)
+    
+
+    #debug
+    # index_debug()
+    
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @texts }
     end
-  end
+  end#def index
+
+  def index_debug(content)
+    # target = "target.txt"
+    # target = "doc/target.txt"
+    # newDir = "doc/abc"
+    # newDir = "doc/abcdef"
+    
+    # if not FileTest::directory?()
+    # if not File.exists?(newDir)
+      # Dir::mkdir(newDir)
+    # end
+    
+    target = "doc/abc/target.txt"
+    # content = "abcdefg"
+    # File.open(target, "w+") do |f|
+    File.open(target, "a") do |f|
+      f.write(content)
+      f.write("\n")
+    end
+    
+  end#def index_debug()
+
+  # def index_debug()
+    # # target = "target.txt"
+    # # target = "doc/target.txt"
+    # # newDir = "doc/abc"
+    # newDir = "doc/abcdef"
+#     
+    # # if not FileTest::directory?()
+    # if not File.exists?(newDir)
+      # Dir::mkdir(newDir)
+    # end
+#     
+    # target = "doc/abc/target.txt"
+    # content = "abcdefg"
+    # File.open(target, "w+") do |f|
+      # f.write(content)
+    # end
+#     
+  # end#def index_debug()
 
   # GET /texts/1
   # GET /texts/1.json
