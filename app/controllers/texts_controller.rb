@@ -28,7 +28,11 @@ class TextsController < ApplicationController
           @texts = 
               Text.find(
                     :all,
-                    :conditions => ["created_at > ?", Time.at(since.to_i / 1000).utc])
+                    :conditions => [
+                              "created_at > ?",
+                              # Time.at(since.to_i / 1000).utc])
+                              Time.at(since.to_i / 1000).utc + (9*60*60)])
+                              
                     # :conditions => ["created_at > ?", Time.at(since.to_i / 1000)])
           
           # logout(Time.at(since.to_i / 1000) + "/utc=" + Time.at(since.to_i / 1000).utc)
