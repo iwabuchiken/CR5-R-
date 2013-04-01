@@ -31,12 +31,14 @@ class TextsController < ApplicationController
               Text.find(
                     :all,
                     :conditions => [
-                              "created_at > ?",
+                              "created_at_mill > ?", since.to_i])
+                              # "created_at > ?",
                               # Time.at(since.to_i / 1000).utc])
                               # Time.at(since.to_i / 1000).utc + (9*60*60)])
 
                               # REF=> http://www.treeder.com/2011/06/converting-ruby-time-to-milliseconds.html
-                              Time.at(since.to_i / 1000).utc + (9*60*60 + 1)])
+                              # Time.at(since.to_i / 1000).utc + (9*60*60 + 1)])
+
                               
                     # :conditions => ["created_at > ?", Time.at(since.to_i / 1000)])
           
@@ -49,7 +51,7 @@ class TextsController < ApplicationController
                   # + "/utc="\
                   # + (Time.at(since.to_i / 1000).utc + (9*60*60)).to_s)
           
-          @texts.paginate
+          # @texts.paginate
           
         else
           logout("since -> " + since + "(" + Time.at(since.to_i / 1000) + ")")
