@@ -116,6 +116,9 @@ class TextsController < ApplicationController
   # POST /texts.json
   def create
     @text = Text.new(params[:text])
+    # @text = Text.new(params[:text], :created_at_mill => (Time.now.to_f * 1000.0).to_i)
+
+    @text.created_at_mill = (Time.now.to_f * 1000.0).to_i
 
     respond_to do |format|
       if @text.save
