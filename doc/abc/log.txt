@@ -67,3 +67,33 @@ since == nil
 since == nil
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:31:03 +0900]
 2013-04-01 20:33:09 +0900/utc=2013-04-01 11:33:09 UTC/since=1364783588931
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:38:05 +0900]
+2013-04-01 20:33:09 +0900/utc=2013-04-01 11:33:09 UTC/since=1364783588931
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:38:16 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:39:21 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:39:56 +0900]
+2013-03-31 15:33:40 +0900/utc=2013-03-31 06:33:40 UTC/since=1364679219410
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:40:04 +0900]
+2013-04-01 20:33:09 +0900/utc=2013-04-01 11:33:09 UTC/since=1364783588931
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:40:12 +0900]
+2013-04-01 20:33:09 +0900/utc=2013-04-01 11:33:09 UTC/since=1364783588930
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:40:44 +0900]
+1974-04-30 08:39:19 +0900/utc=1974-04-29 23:39:19 UTC/since=136478358800
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:40:59 +0900]
+1974-04-30 08:39:19 +0900/utc=1974-04-29 23:39:19 UTC/since=136478358900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:41:44 +0900]
+2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929970
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:41:58 +0900]
+2013-04-01 22:07:04 +0900/utc=2013-04-01 13:07:04 UTC/since=1364789223888
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:42:04 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:42:14 +0900]
+2013-03-31 15:33:40 +0900/utc=2013-03-31 06:33:40 UTC/since=1364679219410
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:42:19 +0900]
+2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:43:06 +0900]
+2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929900
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:43:15 +0900]
+2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929970
