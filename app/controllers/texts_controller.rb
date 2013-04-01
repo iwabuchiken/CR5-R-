@@ -172,6 +172,7 @@ def logout(label)
 
 end
 
+#REF=> http://stackoverflow.com/questions/5661466/test-if-string-is-a-number-in-ruby-on-rails
 class String
   def numeric?
     return true if self =~ /^\d+$/
