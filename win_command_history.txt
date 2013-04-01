@@ -170,11 +170,20 @@ g p heroku master
 [B4 v-2.0b    2013/04/01 10:19:54]-------------------------------
 #rails generate migration ChangeColumn_CreatedAtMill_Textx_BigInt
 #$EDIT migration file
-bundle exec rake db:migrate
-$GIT::commit
+#bundle exec rake db:migrate
+#$GIT::commit
 g p origin master
 g p heroku master
 heroku run rake db:migrate
+
+[B4 v-2.0b-e1-t1-p1-t1       2013/04/01 11:57:59]-------------------------------
+#$GIT::commit
+g p origin master
+g p heroku master
+
+[B4 v-2.0b-e1-t1-p1-t1-e1    2013/04/01 11:57:59]-------------------------------
+#$GIT::commit
+g p origin master && g p heroku master
 
 
 
