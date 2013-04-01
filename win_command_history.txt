@@ -4,6 +4,7 @@ gitk
 
 C:\WORKS\PROGRAMS\FreeMind\Freemind.exe C:\WORKS\WORKSPACES_ANDROID\FM\NewsReader3_R\NewsReader3.mm
 
+pushd C:\WORKS\WS\WS_Android\CR5(R)
 rails s --port 3001
 
 pushd C:\WORKS\WORKSPACES_APTANA\NewsReader3
@@ -161,6 +162,21 @@ g p heroku master
 #g p origin master
 #g p heroku master
 #heroku run rake db:migrate
+
+[B4 v-2.0a    2013/04/01 10:19:54]-------------------------------
+g p origin master
+g p heroku master
+
+[B4 v-2.0b    2013/04/01 10:19:54]-------------------------------
+#rails generate migration ChangeColumn_CreatedAtMill_Textx_BigInt
+#$EDIT migration file
+bundle exec rake db:migrate
+$GIT::commit
+g p origin master
+g p heroku master
+heroku run rake db:migrate
+
+
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------
