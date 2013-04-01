@@ -1,3 +1,5 @@
+require 'fileutils'
+
 class TextsController < ApplicationController
   # GET /texts
   # GET /texts.json
@@ -32,6 +34,8 @@ class TextsController < ApplicationController
                               "created_at > ?",
                               # Time.at(since.to_i / 1000).utc])
                               # Time.at(since.to_i / 1000).utc + (9*60*60)])
+
+                              # REF=> http://www.treeder.com/2011/06/converting-ruby-time-to-milliseconds.html
                               Time.at(since.to_i / 1000).utc + (9*60*60 + 1)])
                               
                     # :conditions => ["created_at > ?", Time.at(since.to_i / 1000)])
@@ -44,6 +48,8 @@ class TextsController < ApplicationController
           # logout((Time.at(since.to_i / 1000) + (9*60*60)).to_s\
                   # + "/utc="\
                   # + (Time.at(since.to_i / 1000).utc + (9*60*60)).to_s)
+          
+          @texts.paginate
           
         else
           logout("since -> " + since + "(" + Time.at(since.to_i / 1000) + ")")
@@ -164,6 +170,13 @@ def logout(label)
   
     
     target = "doc/abc/log.txt"
+    
+    if not File.exists?(target)
+      
+      FileUtils.touch(target)
+      
+    end
+    
     # content = "abcdefg"
     # File.open(target, "w+") do |f|
     File.open(target, "a") do |f|
