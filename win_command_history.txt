@@ -148,6 +148,15 @@ g p heroku master
 g p origin master
 g p heroku master
 
+[B4 v-2.0    2013/04/01 10:19:54]-------------------------------
+//rails generate migration AddColumnCodesToArticle
+rails generate migration AddColumnCreatedAtMillToTexts created_at:integer
+
+bundle exec rake db:migrate
+$GIT::commit
+g p origin master
+g p heroku master
+heroku run rake db:migrate
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------
