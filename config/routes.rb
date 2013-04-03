@@ -7,8 +7,24 @@ CR5R::Application.routes.draw do
 
   get "admin/sub2"
 
+  get "texts/word_list"
+  
+  # get "texts/word_list/:text_id" => 'texts#word_list'
+  
+  # match "texts/word_list/:text_id" => 'texts#word_list'
+  # get "texts/word_list/:text_id"
+
   resources :texts
 
+  # resources :texts do
+#     
+    # member do
+      # get :word_list
+    # end
+#     
+  # end
+
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

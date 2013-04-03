@@ -170,7 +170,39 @@ class TextsController < ApplicationController
       format.json { head :no_content }
     end
   end
-end
+  
+  def word_list
+  
+    text_id = params[:text_id]
+    
+    @text_id = text_id
+    
+    @params = params
+    
+    if text_id != nil
+  #       
+        # @Text = Text.find(:id => text_id.to_i)
+  #       
+        # if @Text == nil
+  #         
+          # @message = "Text not found"
+          @message = "text_id != nil"
+  #         
+        # else
+  #         
+          # @message = "Text found"
+  #         
+        # end
+  #       
+    else
+  #     
+        @message = "text_id is nil"
+  #       
+    end
+    
+  end#def word_list
+
+end#class TextsController < ApplicationController
 
 def logout(label)
   
@@ -194,6 +226,8 @@ def logout(label)
 
 end
 
+
+
 #REF=> http://stackoverflow.com/questions/5661466/test-if-string-is-a-number-in-ruby-on-rails
 class String
   def numeric?
@@ -201,3 +235,7 @@ class String
     true if Float(self) rescue false
   end
 end  
+
+class Message
+  
+end
