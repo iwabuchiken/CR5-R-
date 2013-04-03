@@ -190,6 +190,8 @@ g p origin master && g p heroku master
 g p origin master && g p heroku master
 
 [B5 v-1.0    2013/04/03 13:21:06]-------------------------------
+g p origin master && g p heroku master && heroku run rake db:migrate
+
 
 
 ============STORAGE============================

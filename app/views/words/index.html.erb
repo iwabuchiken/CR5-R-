@@ -2,6 +2,7 @@
 
 <table>
   <tr>
+  	<th>ID</th>
     <th>W1</th>
     <th>W2</th>
     <th>W3</th>
@@ -15,6 +16,7 @@
 
 <% @words.each do |word| %>
   <tr>
+    <td><%= word.id %></td>
     <td><%= word.w1 %></td>
     <td><%= word.w2 %></td>
     <td><%= word.w3 %></td>
