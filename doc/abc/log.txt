@@ -97,3 +97,9 @@ since == nil
 2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929900
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-01 13:43:15 +0900]
 2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929970
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 13:32:00 +0900]
+2013-04-01 19:48:50 +0900/utc=2013-04-01 10:48:50 UTC/since=1364780929970
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 13:35:20 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 13:36:31 +0900]
+since == nil

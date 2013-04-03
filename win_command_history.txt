@@ -189,6 +189,8 @@ g p origin master && g p heroku master
 #$GIT::commit
 g p origin master && g p heroku master
 
+[B5 v-1.0    2013/04/03 13:21:06]-------------------------------
+
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------
