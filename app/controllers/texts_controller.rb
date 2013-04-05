@@ -101,6 +101,8 @@ class TextsController < ApplicationController
   def show
     @text = Text.find(params[:id])
 
+    @words = @text.words
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @text }

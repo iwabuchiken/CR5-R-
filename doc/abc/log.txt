@@ -121,3 +121,21 @@ since == nil
 since == nil
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 14:54:50 +0900]
 since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 17:22:33 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 17:25:19 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-03 17:36:13 +0900]
+text.id => 1
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-03 17:39:10 +0900]
+text.id => 1
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-03 17:46:26 +0900]
+text.id => 1
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-03 17:48:44 +0900]
+text.id => 1
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-03 17:49:36 +0900]
+text.id => 1
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-05 15:11:06 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-05 15:11:51 +0900]
+since == nil

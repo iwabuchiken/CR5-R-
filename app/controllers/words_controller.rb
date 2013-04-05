@@ -15,6 +15,10 @@ class WordsController < ApplicationController
   def show
     @word = Word.find(params[:id])
 
+    #debug
+    @texts = @word.texts
+    ############################
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @word }
@@ -41,6 +45,29 @@ class WordsController < ApplicationController
   # POST /words.json
   def create
     @word = Word.new(params[:word])
+
+    ################################################\
+    text_id = @word.text_id
+    
+    # text = Text.find(:id => text_id.to_i)
+    text = Text.find(text_id.to_i)
+    
+    if text != nil
+      
+      logout("text.id => " + text.id.to_s)
+      
+    else
+      
+      logout("text == nil")
+      
+    end
+    # logout(text.)
+    
+    text.words << @word
+    # @word.texts << text     #=> "text.. << ..word" or "word.. << ..text"
+                              #=> Both generate the same entry in the join table
+                              #=> So, you only need to do either of the two.
+    ################################################/
 
     respond_to do |format|
       if @word.save
@@ -80,4 +107,26 @@ class WordsController < ApplicationController
       format.json { head :no_content }
     end
   end
+end#class WordsController
+
+def logout(label)
+  
+    
+    target = "doc/abc/log.txt"
+    
+    if not File.exists?(target)
+      
+      FileUtils.touch(target)
+      
+    end
+    
+    # content = "abcdefg"
+    # File.open(target, "w+") do |f|
+    File.open(target, "a") do |f|
+      f.write("[" + __FILE__ + " " + Time.now.to_s + "]" + "\n")
+      # f.write(content)
+      f.write(label)
+      f.write("\n")
+    end
+
 end

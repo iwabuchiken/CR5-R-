@@ -195,6 +195,10 @@ g p origin master && g p heroku master && heroku run rake db:migrate
 [B5 v-1.1-T1    2013/04/03 13:21:06]-------------------------------
 g p origin master && g p heroku master
 
+[B6 v-2.0    2013/04/03 13:21:06]-------------------------------
+rails generate model WordList text_id:integer word_id:integer lang_id:integer
+bundle exec rake db:migrate
+
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------
