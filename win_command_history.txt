@@ -217,6 +217,8 @@ g p origin master && g p heroku master && heroku run rake db:migrate
 
 #g p origin master && g p heroku master && heroku run rake db:migrate
 
+[B7 v-2.1	2013/04/06 10:20:25]-------------------------------
+g p origin master && g p heroku master
 
 ============STORAGE============================
 [Model: Article: 20120710_172354]-------------------------------

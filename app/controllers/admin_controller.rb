@@ -42,7 +42,19 @@ class AdminController < ApplicationController
     
     words = Word.find(:all)
     texts = Text.limit(3)
-    text = texts[2]
+    
+    if texts != nil
+      
+      text = texts[texts.length - 1]
+      
+    else
+      
+      @message = "texts.length => 0"
+      
+      return
+      
+    end
+    # text = texts[2]
     # texts = Text.limit(2)
     # text = texts[1]
     
@@ -72,9 +84,14 @@ class AdminController < ApplicationController
           
           if res == true
             
-            text.words << word
+            res2 = text.words << word
             
-            logout("New word entered:" + word.w1 + "/text id=" + text.id.to_s)
+            logout(
+                "New word entered:"\
+                + word.w1\
+                + "/text id=" + text.id.to_s\
+                + "res2=" + res2.to_s\
+                + "/" + res2.class.to_s)
             
           end#if res == true
           
