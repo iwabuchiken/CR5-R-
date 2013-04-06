@@ -40,7 +40,8 @@ class AdminController < ApplicationController
   
   def word_list
     
-    words = Word.find(:all)
+    # words = Word.find(:all)
+    words = Word.find(:all, :order => "id")
     
     #REF=> http://stackoverflow.com/questions/7923674/active-record-get-the-second-third-item-in-a-database-without-id ## "answered Oct 27 '11 at 23:42"
     texts = Text.limit(3)

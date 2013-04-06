@@ -2089,3 +2089,101 @@ Doesn't match: 安全
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:18:25 +0900]
 安全
 
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+=============================================
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+text.id=3
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+New word entered:朝鲜(id=6)/text id=3res2=[#<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">, #<Word id: 6, w1: "朝鲜", w2: "", w3: "chao2xian1", text_id: 1, text_ids: nil, lang_id: nil, created_at: "2013-04-03 08:48:44", updated_at: "2013-04-03 08:48:44">]/Array
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+target_word=安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:28:47 +0900/138]
+安全
+
