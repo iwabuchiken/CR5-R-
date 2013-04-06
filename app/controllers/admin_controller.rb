@@ -41,10 +41,14 @@ class AdminController < ApplicationController
   def word_list
     
     # words = Word.find(:all)
-    words = Word.find(:all, :order => "id")
+    words = Word.find(:all, :order => "id ASC")
     
     #REF=> http://stackoverflow.com/questions/7923674/active-record-get-the-second-third-item-in-a-database-without-id ## "answered Oct 27 '11 at 23:42"
-    texts = Text.limit(3)
+    # texts = Text.limit(3)
+    # texts = Text.limit(3, :order => "id ASC")
+    
+    #REF=> http://stackoverflow.com/questions/1739139/using-order-and-limit-options-ruby-on-rails ## answered Nov 15 '09 at 22:53
+    texts = Text.find(:all, :limit => 3, :order => "id ASC")
     
     @message = ""
 
