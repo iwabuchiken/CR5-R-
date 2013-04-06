@@ -257,3 +257,556 @@ text.id => 1
 Saving a new Word instance...
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:28:34 +0900]
 since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 14:54:23 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:55:51 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:57:07 +0900]
+nil
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 14:58:06 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:16:26 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:19:33 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:20:13 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+text.id=2
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:14 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+text.id=2
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:21:40 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 15:22:03 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+=============================================
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+text.id=3
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:23:57 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+=============================================
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+text.id=3
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+words.length=9
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 容忍
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+容忍
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 遏制
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+遏制
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 挑衅
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+挑衅
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 切实
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+切实
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 保障
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+保障
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Match: 朝鲜
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+朝鲜
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 研发
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+研发
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 武器
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+武器
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+安全
+
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+target_word=安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+Doesn't match: 安全
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 15:25:59 +0900]
+安全
+

@@ -206,7 +206,7 @@ g p origin master && g p heroku master && heroku run rake db:migrate
 #g p origin master && g p heroku master
 #$BROWSE::REMOTE
 
-[B7 v-2.0	2013/04/06 10:20:25]-------------------------------
+[B7 v-1.1	2013/04/06 10:20:25]-------------------------------
 #bundle exec rake db:migrate
 #rake db:version
 
@@ -215,7 +215,7 @@ g p origin master && g p heroku master && heroku run rake db:migrate
 	
 #rails destroy migration ChangeColumnW1InWordsUnique
 
-heroku run rake db:migrate
+#g p origin master && g p heroku master && heroku run rake db:migrate
 
 
 ============STORAGE============================
@@ -225,7 +225,6 @@ heroku run rake db:migrate
 # bundle exec rake db:migrate
 
 heroku run rake db:migrate
-
 
 bundle update
 
