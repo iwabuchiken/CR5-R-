@@ -37,4 +37,10 @@ class AdminController < ApplicationController
 
   def sub2
   end
+  
+  def word_list
+    
+    
+    
+  end
 end

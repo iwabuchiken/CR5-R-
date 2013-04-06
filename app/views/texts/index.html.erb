@@ -1,10 +1,11 @@
 <h1>Listing texts</h1>
 
-<table>
+<table border="1">
   <tr>
     <th>ID</th>
     <th>Text</th>
     <th>Url</th>
+    <th>Words</th>
     <th>Genre</th>
     <th>Subgenre</th>
     <th>Lang</th>
@@ -22,11 +23,16 @@
     <td><%= text.id %></td>
     <td><%= text.text %></td>
     <td><%= text.url %></td>
-    <td><%= text.genre_id %></td>
-    <td><%= text.subgenre_id %></td>
-    <td><%= text.lang_id %></td>
+    <% if text.words != nil %>
+    	<td style="text-align: center"><%= text.words.length %></td>
+	<% else %>
+		<td><%= 0 %></td>
+	<% end %>
+    <td style="text-align: center"><%= text.genre_id %></td>
+    <td style="text-align: center"><%= text.subgenre_id %></td>
+    <td style="text-align: center"><%= text.lang_id %></td>
     <td><%= text.memo %></td>
-    <td><%= text.dbId %></td>
+    <td style="text-align: center"><%= text.dbId %></td>
     <td><%= link_to 'Show', text %></td>
     <td><%= link_to 'Edit', edit_text_path(text) %></td>
     <td><%= link_to 'Destroy', text, confirm: 'Are you sure?', method: :delete %></td>

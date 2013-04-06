@@ -196,8 +196,14 @@ g p origin master && g p heroku master && heroku run rake db:migrate
 g p origin master && g p heroku master
 
 [B6 v-2.0    2013/04/03 13:21:06]-------------------------------
-rails generate model WordList text_id:integer word_id:integer lang_id:integer
-bundle exec rake db:migrate
+#rails generate model WordList text_id:integer word_id:integer lang_id:integer
+#bundle exec rake db:migrate
+g p origin master && g p heroku master && heroku run rake db:migrate
+
+[B7 v-1.0	2013/04/06 10:20:25]-------------------------------
+rails generate migration ChangeColumnW1InWords_unique
+#$GIT::commit
+$GIT::merge
 
 
 ============STORAGE============================

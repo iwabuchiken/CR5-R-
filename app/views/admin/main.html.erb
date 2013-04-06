@@ -1,5 +1,6 @@
 <h1>Admin#main</h1>
-<p>Find me in app/views/admin/main.html.erb</p><br>
+<hr />
 
-<br />
-@content=<%= @content %>
+<hr />
+<!-- REF=> http://stackoverflow.com/questions/8684467/button-to-with-get-method-option-in-rails -->
+Create word lists<%= button_to "Go", :controller => "admin", :action => "word_list"%>

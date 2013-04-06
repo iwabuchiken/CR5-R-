@@ -6,9 +6,10 @@ CR5R::Application.routes.draw do
   get "admin/sub1"
 
   get "admin/sub2"
-
-  get "texts/word_list"
   
+  # get "admin/word_list"
+  post "admin/word_list"
+
   # get "texts/word_list/:text_id" => 'texts#word_list'
   
   # match "texts/word_list/:text_id" => 'texts#word_list'
