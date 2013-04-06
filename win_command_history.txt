@@ -201,9 +201,21 @@ g p origin master && g p heroku master
 g p origin master && g p heroku master && heroku run rake db:migrate
 
 [B7 v-1.0	2013/04/06 10:20:25]-------------------------------
-rails generate migration ChangeColumnW1InWords_unique
 #$GIT::commit
-$GIT::merge
+#$GIT::merge
+#g p origin master && g p heroku master
+#$BROWSE::REMOTE
+
+[B7 v-2.0	2013/04/06 10:20:25]-------------------------------
+#bundle exec rake db:migrate
+#rake db:version
+
+#rake db:rollback
+	REF=> http://www.rubylife.jp/rails/model/index8.html
+	
+#rails destroy migration ChangeColumnW1InWordsUnique
+
+heroku run rake db:migrate
 
 
 ============STORAGE============================

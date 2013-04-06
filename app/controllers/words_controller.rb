@@ -44,6 +44,9 @@ class WordsController < ApplicationController
   # POST /words
   # POST /words.json
   def create
+    #debug
+    logout("Creating a new Word instance...")
+    
     @word = Word.new(params[:word])
 
     ################################################\
@@ -63,14 +66,23 @@ class WordsController < ApplicationController
     end
     # logout(text.)
     
-    text.words << @word
+    # text.words << @word
+    # logout(text.words << @word)
+    # res = text.words << @word
+    
+    # logout("res=" + res)
     # @word.texts << text     #=> "text.. << ..word" or "word.. << ..text"
                               #=> Both generate the same entry in the join table
                               #=> So, you only need to do either of the two.
     ################################################/
 
+    logout("Saving a new Word instance...")
+
     respond_to do |format|
       if @word.save
+        #debug
+        text.words << @word
+        
         format.html { redirect_to @word, notice: 'Word was successfully created.' }
         format.json { render json: @word, status: :created, location: @word }
       else
