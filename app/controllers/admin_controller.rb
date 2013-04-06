@@ -40,10 +40,17 @@ class AdminController < ApplicationController
   
   def word_list
     
-    words = Word.find(:all)
+    # words = Word.find(:all)
+    
+    #REF=> http://rubyrails.blog27.fc2.com/blog-entry-13.html
+    words = Word.find(:all, :order => "id ASC")
     
     #REF=> http://stackoverflow.com/questions/7923674/active-record-get-the-second-third-item-in-a-database-without-id ## "answered Oct 27 '11 at 23:42"
-    texts = Text.limit(3)
+    # texts = Text.limit(3)
+    # texts = Text.limit(3, :order => "id ASC")
+    
+    #REF=> http://stackoverflow.com/questions/1739139/using-order-and-limit-options-ruby-on-rails ## answered Nov 15 '09 at 22:53
+    texts = Text.find(:all, :limit => 3, :order => "id ASC")
     
     @message = ""
 
@@ -140,6 +147,8 @@ class AdminController < ApplicationController
     logout("target_word=" + target_word)
     
     # regex = Regexp.new("^this is regexp")
+    #REF=> http://www.rubylife.jp/regexp/ini/index3.html
+    #REF=> http://www.namaraii.com/rubytips/?%C0%B5%B5%AC%C9%BD%B8%BD%A1%CA%A5%D1%A5%BF%A1%BC%A5%F3%A5%DE%A5%C3%A5%C1%A1%CB
     regex = Regexp.new(target_word)
     
     if text.text =~ regex
