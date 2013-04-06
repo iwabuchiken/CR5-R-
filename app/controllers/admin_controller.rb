@@ -41,11 +41,17 @@ class AdminController < ApplicationController
   def word_list
     
     words = Word.find(:all)
+    
+    #REF=> http://stackoverflow.com/questions/7923674/active-record-get-the-second-third-item-in-a-database-without-id ## "answered Oct 27 '11 at 23:42"
     texts = Text.limit(3)
     
+    @message = ""
+
     if texts != nil
       
       text = texts[texts.length - 1]
+
+      @message += "Target text id=" + text.id.to_s + "\n"
       
     else
       
@@ -58,18 +64,18 @@ class AdminController < ApplicationController
     # texts = Text.limit(2)
     # text = texts[1]
     
-    @message = ""
     
     logout("=============================================")
     logout("text.id=" + text.id.to_s)
     
-    @message = "text.id=" + text.id.to_s
+    # @message = "text.id=" + text.id.to_s
     
     if words != nil
       
       logout("words.length=" + words.length.to_s)
       
-      @message = "words.length=" + words.length.to_s
+      @message += "[" + __FILE__ + " " + Time.now.to_s + "/" + __LINE__.to_s + "]" + "\n"\
+                + "words.length=" + words.length.to_s + "\n"
       
       # for i in (1..words.length)
       for i in (0..words.length - 1)
@@ -89,9 +95,22 @@ class AdminController < ApplicationController
             logout(
                 "New word entered:"\
                 + word.w1\
+                + "(id=" + word.id.to_s + ")"\
                 + "/text id=" + text.id.to_s\
                 + "res2=" + res2.to_s\
                 + "/" + res2.class.to_s)
+            
+            @message +=
+                "[" + __FILE__ + " " + Time.now.to_s + "]" + "/" + __LINE__.to_s + "]"\
+                + "\n"\
+                + "** "\
+                + "New word entered:"\
+                + word.w1\
+                + "(id=" + word.id.to_s + ")"\
+                + "/text id=" + text.id.to_s\
+                + " ***"
+                # + "res2=" + res2.to_s\
+                # + "/" + res2.class.to_s\
             
           end#if res == true
           
