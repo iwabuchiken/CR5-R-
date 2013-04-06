@@ -70,9 +70,15 @@ class AdminController < ApplicationController
           
           res = isIn?(text, word.w1, @message)
           
+          if res == true
+            
+            text.words << word
+            
+            logout("New word entered:" + word.w1 + "/text id=" + text.id.to_s)
+            
+          end#if res == true
           
-          
-        else
+        else#if word != nil
           
           logout("nil" + "\n")
           
