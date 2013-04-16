@@ -1,6 +1,71 @@
 <h1>Admin#main</h1>
 <hr />
 
+<% if params[:delete_table] != nil %>
+
+	delete_table = <%= params[:delete_table] %>
+	<!-- delete_table = <%#= @delete_table %> -->
+	
+<% else %>
+
+	delete_table => nil
+
+<% end %>
+
 <hr />
 <!-- REF=> http://stackoverflow.com/questions/8684467/button-to-with-get-method-option-in-rails -->
 Create word lists<%= button_to "Go", :controller => "admin", :action => "word_list"%>
+Delete records in the table: <%= @word.w1 %><br />
+
+<%#= form_for @word do |f| %>
+
+<%# REF=> http://guides.rubyonrails.org/form_helpers.html ## "1 Dealing with Basic Forms" %>
+<%= form_tag do %>
+<%#= form_tag(:method => "get") do %> <!-- action="/admin/main?method=get" -->
+	<!-- f.w1=<%#= f.text_field :w1 %> -->
+	<%#= select_tag(:week_day, options_for_select([['Sunday', 'Sun'], ['Monday', 'Mon']])) %>
+	<%#= select_tag(:week_day, options_for_select(@table_list)) %>
+	
+	<%= label_tag(:q, "Delete table:") %>
+  	<%#= text_field_tag(:q) %>
+	<%= select_tag(:delete_table, options_for_select(@table_list)) %>
+	
+	
+	<%#= select_tag(:word, :week_day, options_for_select(@table_list)) %>
+	
+	<%# REF=> http://guides.rubyonrails.org/form_helpers.html ## "3.2 Select Boxes for Dealing with Models"%>
+	<%#= select(@word, :week_day, options_for_select(@table_list)) %>
+	
+	<%#= select(f, :week_day, options_for_select(@table_list)) %> <!-- #=> name="#&lt;ActionView::Helpers::FormBuilder:0x3b12970&gt;[week_day]" -->
+	
+	<%#= select(:word, :week_day, options_for_select(@table_list)) %>
+	
+
+	<%#= f.submit "Go" %>
+	<%= submit_tag("Go") %>
+	
+<% end %>
+<br />
+
+@tables=<%= @tables.class %><br />
+
+<% if @tables != nil and @table_list != nil %>
+	
+	@tables.length=<%= @tables.length %><br>
+	
+	<% for i in (0..@tables.length - 1) %>
+	
+		table[<%= i %>] = <%= @tables[i] %><br />
+	
+	<% end %>
+
+	@table_list = <%= p @table_list %><br />
+	@tables = <%= p @tables %><br />
+	@index_array = <%= p @index_array %><br />
+
+<% else %>
+
+	@tables => nil<br />
+	@table_list => nil<br />
+	
+<% end %>

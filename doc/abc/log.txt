@@ -2752,3 +2752,7 @@ Doesn't match: 安全
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-06 16:54:00 +0900]
 since == nil
 
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-07 08:26:39 +0900]
+since == nil
+[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/texts_controller.rb 2013-04-16 12:02:02 +0900]
+since == nil

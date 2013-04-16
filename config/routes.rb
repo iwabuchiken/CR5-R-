@@ -2,6 +2,7 @@ CR5R::Application.routes.draw do
   resources :words
 
   get "admin/main"
+  post "admin/main"
 
   get "admin/sub1"
 

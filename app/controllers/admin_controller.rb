@@ -23,6 +23,27 @@ class AdminController < ApplicationController
       
     end
     
+    #debug
+    @word = Word.find(:first)
+    
+    #debug
+    @tables = ActiveRecord::Base.connection.tables
+    
+    #debug
+    if @tables != nil
+      
+      @index_array = Array.new(@tables.length){|i| i}
+      # @table_list = @tables.product(@index_array)
+      @table_list = Array.new(@tables.length){|i| [@tables[i], @tables[i]]}
+      # @table_list = @tables.product(Array.new(@tables.length){|i| i})
+      
+    else
+      
+      @table_list = nil
+      
+    end
+    # @table_list = @tables.product(Array.new())
+    
     # File.open(target, "r") do |f|
 #       
       # @content = f.read()
