@@ -137,9 +137,9 @@ class TextsController < ApplicationController
     #D-9
     if @text.title == ""
       
-      if @text.text.length > 10
+      if @text.text.length > 30
         
-        @text.title = @text.text[0..10]
+        @text.title = @text.text[0..30]
         
       else
         

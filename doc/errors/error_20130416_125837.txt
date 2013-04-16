@@ -47,8 +47,7 @@ n layouts/application (3.2ms)
 2013-04-16T03:50:16.804824+00:00 app[web.1]: cache: [GET /texts/new] miss
 2013-04-16T03:50:16.801673+00:00 app[web.1]: Completed 500 Internal Server Error
  in 4ms
-2013-04-16T03:50:16.803766+00:00 app[web.1]: ActionView::Template::Error (undefi
-ned method `title' for #<Text:0x00000003c67700>):
+2013-04-16T03:50:16.803766+00:00 app[web.1]: ActionView::Template::Error (undefined method `title' for #<Text:0x00000003c67700>):
 2013-04-16T03:50:16.803766+00:00 app[web.1]:     19:     <%= f.label :title %><b
 r />
 2013-04-16T03:50:16.803766+00:00 app[web.1]:     18:   <div class="field">
