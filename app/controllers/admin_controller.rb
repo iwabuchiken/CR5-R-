@@ -62,8 +62,6 @@ class AdminController < ApplicationController
   def word_list
     
     # words = Word.find(:all)
-    
-    #REF=> http://rubyrails.blog27.fc2.com/blog-entry-13.html
     words = Word.find(:all, :order => "id ASC")
     
     #REF=> http://stackoverflow.com/questions/7923674/active-record-get-the-second-third-item-in-a-database-without-id ## "answered Oct 27 '11 at 23:42"

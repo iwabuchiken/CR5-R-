@@ -2551,8 +2551,7 @@ Doesn't match: 安全
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:37:45 +0900/138]
 安全
 
-[C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:41:11 +0900/138]
-=============================================
+
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:41:11 +0900/138]
 text.id=3
 [C:/WORKS/WS/WS_Android/CR5(R)/app/controllers/words_controller.rb 2013-04-06 16:41:11 +0900/138]
