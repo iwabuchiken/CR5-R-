@@ -1,0 +1,60 @@
+2013-04-16T03:48:20.672493+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 4.4
+ms | ActiveRecord: 2.0ms)
+2013-04-16T03:48:20.671865+00:00 heroku[router]: at=info method=GET path=/texts/
+40 host=cosmos-cr5.herokuapp.com fwd="101.111.248.98" dyno=web.1 connect=2ms ser
+vice=18ms status=200 bytes=1727
+2013-04-16T03:48:23.218995+00:00 heroku[router]: at=info method=GET path=/texts
+host=cosmos-cr5.herokuapp.com fwd="101.111.248.98" dyno=web.1 connect=3ms servic
+e=26ms status=304 bytes=0
+2013-04-16T03:48:23.199191+00:00 app[web.1]:
+2013-04-16T03:48:23.199191+00:00 app[web.1]:
+2013-04-16T03:48:23.199191+00:00 app[web.1]: Started GET "/texts" for 101.111.24
+8.98 at 2013-04-16 03:48:23 +0000
+2013-04-16T03:48:23.200087+00:00 app[web.1]: Processing by TextsController#index
+ as HTML
+2013-04-16T03:48:23.217353+00:00 app[web.1]:   Rendered texts/index.html.erb wit
+hin layouts/application (15.2ms)
+2013-04-16T03:48:23.218914+00:00 app[web.1]:   Rendered layouts/_footer_main.htm
+l.erb (0.6ms)
+2013-04-16T03:48:23.219000+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 9.
+7ms | ActiveRecord: 8.3ms)
+2013-04-16T03:48:23.219371+00:00 app[web.1]: cache: [GET /texts] miss
+2013-04-16T03:50:16.796671+00:00 app[web.1]:
+2013-04-16T03:50:16.796671+00:00 app[web.1]: Started GET "/texts/new" for 101.11
+1.248.98 at 2013-04-16 03:50:16 +0000
+2013-04-16T03:50:16.796671+00:00 app[web.1]:
+2013-04-16T03:50:16.797629+00:00 app[web.1]: Processing by TextsController#new a
+s HTML
+2013-04-16T03:50:16.803766+00:00 app[web.1]:
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     17:   </div>
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     22:   <div class="field">
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     20:     <%= f.text_area :title,
+ :rows => "3" %>
+2013-04-16T03:50:16.804024+00:00 app[web.1]:   app/views/texts/new.html.erb:3:in
+ `_app_views_texts_new_html_erb__3459575613613363551_30880180'
+2013-04-16T03:50:16.804024+00:00 app[web.1]:   app/controllers/texts_controller.
+rb:118:in `new'
+2013-04-16T03:50:16.803766+00:00 app[web.1]:   app/views/texts/_form.html.erb:20
+:in `block in _app_views_texts__form_html_erb___2087341309166397330_30364320'
+2013-04-16T03:50:16.801459+00:00 app[web.1]:   Rendered texts/_form.html.erb (3.
+0ms)
+2013-04-16T03:50:16.804024+00:00 app[web.1]:
+2013-04-16T03:50:16.801459+00:00 app[web.1]:   Rendered texts/new.html.erb withi
+n layouts/application (3.2ms)
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     23:     <%= f.label :url %><br
+/>
+2013-04-16T03:50:16.804024+00:00 app[web.1]:
+2013-04-16T03:50:16.804824+00:00 app[web.1]: cache: [GET /texts/new] miss
+2013-04-16T03:50:16.801673+00:00 app[web.1]: Completed 500 Internal Server Error
+ in 4ms
+2013-04-16T03:50:16.803766+00:00 app[web.1]: ActionView::Template::Error (undefi
+ned method `title' for #<Text:0x00000003c67700>):
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     19:     <%= f.label :title %><b
+r />
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     18:   <div class="field">
+2013-04-16T03:50:16.803766+00:00 app[web.1]:     21:   </div>
+2013-04-16T03:50:16.804024+00:00 app[web.1]:   app/views/texts/_form.html.erb:1:
+in `_app_views_texts__form_html_erb___2087341309166397330_30364320'
+2013-04-16T03:50:16.808887+00:00 heroku[router]: at=info method=GET path=/texts/
+new host=cosmos-cr5.herokuapp.com fwd="101.111.248.98" dyno=web.1 connect=8ms se
+rvice=20ms status=500 bytes=643
