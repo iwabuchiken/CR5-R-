@@ -1,9 +1,15 @@
 <h1>Listing texts</h1>
 
+<div align="right">
+	(<%= link_to 'New Text', new_text_path %>)
+</div>
+
+
 <table border="1">
   <tr>
     <th>ID</th>
     <th>Text</th>
+    <th>Title</th>
     <th>Url</th>
     <th>Words</th>
     <th>Genre</th>
@@ -13,15 +19,17 @@
     <th>Dbid</th>
     <th></th>
     <th></th>
-    <th></th>
     <th>Created at</th>
-    <th>Created at(millsec)</th>
   </tr>
 
 <% @texts.each do |text| %>
   <tr>
     <td><%= text.id %></td>
-    <td><%= text.text %></td>
+    <!-- <td><%#= text.text %></td> -->
+    <td><%= link_to text.text, text %></td>
+    <!-- <td><%#= link_to 'Show', text %></td> -->
+    
+    <td width="150"><%= text.title %></td>
     <td><%= text.url %></td>
     <% if text.words != nil %>
     	<td style="text-align: center"><%= text.words.length %></td>
@@ -33,11 +41,10 @@
     <td style="text-align: center"><%= text.lang_id %></td>
     <td><%= text.memo %></td>
     <td style="text-align: center"><%= text.dbId %></td>
-    <td><%= link_to 'Show', text %></td>
     <td><%= link_to 'Edit', edit_text_path(text) %></td>
     <td><%= link_to 'Destroy', text, confirm: 'Are you sure?', method: :delete %></td>
     <td><%= text.created_at %></td>
-    <td><%= text.created_at_mill %>(<%= text.created_at_mill.class %>)</td>
+
   </tr>
 <% end %>
 </table>

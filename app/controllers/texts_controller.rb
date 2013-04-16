@@ -134,6 +134,21 @@ class TextsController < ApplicationController
 
     @text.created_at_mill = (Time.now.to_f * 1000.0).to_i
 
+    #D-9
+    if @text.title == ""
+      
+      if @text.text.length > 10
+        
+        @text.title = @text.text[0..10]
+        
+      else
+        
+        @text.title = @text.text
+        
+      end
+      
+    end#if @text.title == ""
+      
     respond_to do |format|
       if @text.save
         format.html { redirect_to @text, notice: 'Text was successfully created.' }
