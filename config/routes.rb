@@ -10,7 +10,12 @@ CR5R::Application.routes.draw do
   
   # get "admin/word_list"
   post "admin/word_list"
+  get "admin/word_list"
 
+# => http://www.rubylife.jp/rails/routing/index4.html
+  match "texts/get_word_list/:text_id" => 'texts#get_word_list'
+  get "texts/get_word_list"
+  
   # get "texts/word_list/:text_id" => 'texts#word_list'
   
   # match "texts/word_list/:text_id" => 'texts#word_list'

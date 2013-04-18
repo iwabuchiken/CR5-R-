@@ -219,6 +219,39 @@ class TextsController < ApplicationController
     
   end#def word_list
 
+# => get_word_list
+# =>    1. Provide json object
+# =>    2. If you want an html view, for example from Text#show(),
+# =>        then use Text#show_word_list()
+  def get_word_list
+
+    text_id = params[:text_id]
+    
+    # => If text id is not given in the parameter of the url, then
+    # =>    return null
+    if text_id != nil && text_id.numeric?
+    
+      text = Text.find(text_id.to_i)
+      
+      @words = text.words
+      
+    else
+      
+      # @text = nil
+      # @words = Word.find(:all)
+      @words = nil
+      
+    end
+    
+    respond_to do |format|
+      # format.html # index.html.erb
+      # format.json { render json: @texts }
+      # format.json { render json: @words }
+      format.html { render json: @words }
+    end
+    
+  end#def get_word_list
+  
 end#class TextsController < ApplicationController
 
 def logout(label)
