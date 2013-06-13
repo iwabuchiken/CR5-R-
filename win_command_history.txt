@@ -1,4 +1,6 @@
 a
+pushd C:\WORKS\WS\WS_Android\CR5(R) && gitk
+
 pushd C:\WORKS\WS\WS_Android\CR5(R)
 gitk
 
